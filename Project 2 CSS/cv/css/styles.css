@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', serif;
+    background-color: #D7CEC7;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+hr {
+    border: 2px solid #F4DECB;
+    border-radius: 3px;
+}
+.contact:link, .contact:visited {
+    background-color: rgb(119, 115, 115);
+    padding: 15px 20px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+.contact:active,.contact:hover {
+    background-color: rgb(80, 76, 76);
+}
+.top {
+    background-color: rgb(150, 143, 143);
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+.top > h1 {
+    color: white;
+    font-size: xx-large;
+}
+.top > h2 {
+    color: rgba(206, 44, 44, 0.819);
+    font-size: x-large;
+    font-weight: bolder;
+}
+.headshot {
+    border-radius: 50%;
+}
+.img1 {
+    position: absolute;
+    left: 0;
+}
+.img3 {
+    position: absolute;
+    right: 0;
+}
+.top > img {
+    padding: 0 250px;
+}
+.top > h2 {
+    font-size: medium;
+}
+.top > p {
+    width: 550px;
+    text-align: center;
+    display: inline-block;
+}
+.middle {
+    text-align: center;
+}
+.languages {
+    clear: both;
+    display: inline-block;
+    padding: 40px;
+}
+.programmer {
+    float: right;
+    padding-left: 30px;
+}
+.languages-list {
+    list-style-type: none;
+    float: left;
+    padding-right: 30px;
+}
+.experience {
+    clear: both;
+    display: inline-block;
+    padding: 40px;
+}
+.jobs-list {
+    list-style-type: none;
+    text-align: left;
+    float: left;
+    padding-right: 30px;
+}
+.utility {
+    float: right;
+    padding-left: 30px;
+}
+.skills {
+    clear: both;
+    display: inline-block;
+    padding: 40px;
+}
+.skills-list {
+    list-style-type: none;
+    text-align: left;
+    float: left;
+    padding-right: 30px;
+}
+.github {
+    float: right;
+    padding-left: 30px;
+}
+.bottom {
+    background-color: #F4DECB;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 18px 0 12px 0;
+    border: 2px solid #bfa38b;
+    border-radius: 15px;
+}
+.contact-top {
+    text-align: center;
+}
+.contact-top > h1 {
+    color: white;
+    font-size: xx-large;
+}
+.contact-bottom {
+    text-align: center;
+}
+.contact-form {
+    display: inline-block;
+    padding-top: 30px;
+}
+.labels {
+    float: left;
+    padding-right: 10px;
+    text-align: right;
+}
+.inputs {
+    float: right;
+    padding-left: 10px;
+}
